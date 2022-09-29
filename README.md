@@ -95,7 +95,7 @@ To do the following it must be in a component where this is called:
 ```javascript
 import { useRealm } from "./models/Task";
 
-const realm = UseRealm()
+const realm = useRealm()
 ```
 
 To find an entry in a Realm collection:
