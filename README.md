@@ -1,6 +1,6 @@
 # realm-how-to
 
-Once the branch is pulled onto your machine:
+To install realm:
 ```
 npm install @realm/react
 expo run:ios -d
