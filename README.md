@@ -54,6 +54,14 @@ import { Task } from "./models/Task";
 export const { useRealm, useQuery, RealmProvider } = createRealmContext({
   schema: [Task.schema],
 });
+
+// useRealm connects a React component to Realm.
+
+// useQuery selects all objects in a collection
+// eg. all Task objects:
+const tasks = realm.useQuery("Task");
+
+// RealmProvider is a component wrapper for the entire app to allow Realm to work within it (see below).
 ```
 
 ## Using it in App.js
@@ -61,7 +69,7 @@ export const { useRealm, useQuery, RealmProvider } = createRealmContext({
 ```javascript
 //app.js
 
-import { useQuery, useRealm, RealmProvider } from "./components/CreateRealmContext";
+import { useRealm, RealmProvider } from "./components/CreateRealmContext";
 
 const App = () => {
   const realm = useRealm();
