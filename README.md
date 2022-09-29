@@ -76,10 +76,10 @@ const App = () => {
 
 return...
 }
-
+```
 Realm Provider is a wrapper that allows Realm functionality within components.
 It must wrap the entire app to work.
-
+```javascript
 export default function AppWrapper() {
   return (
     <RealmProvider>
