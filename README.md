@@ -2,7 +2,7 @@
 
 Once the branch is pulled onto your machine:
 ```
-npm install
+npm install @realm/react
 expo run:ios -d
 ```
 
