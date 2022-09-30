@@ -29,9 +29,10 @@ if issues installing Pods, delete /ios/pods /node_modules, and the following lin
     "bundleIdentifier": "i"
   },
 ```
-then:
+then
 ```
-npm insall
+npm install
+npm install -g --force expo-cli
 expo run:ios -d
 ```
 
