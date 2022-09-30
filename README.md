@@ -174,7 +174,7 @@ realm.write(() => {
 ```
 ## Finding Realm Files
 
-download Realm Studio
+Download Realm Studio from https://www.mongodb.com/docs/realm-legacy/products/realm-studio.html
 
 In the terminal:
 ```
