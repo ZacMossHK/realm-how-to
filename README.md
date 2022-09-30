@@ -21,8 +21,15 @@ Then to run
 npm start
 ```
 
-if issues installing Pods, delete /ios/pods, ios/podfile, /node_modules, then:
+if issues installing Pods, delete /ios/pods /node_modules, and the following lines from app.json:
 
+```javascript
+"ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "i"
+  },
+```
+then:
 ```
 npm insall
 expo run:ios -d
