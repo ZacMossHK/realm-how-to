@@ -2,6 +2,7 @@
 
 To install realm:
 ```
+npm install realm
 npm install @realm/react
 npm install expo
 expo run:ios -d
