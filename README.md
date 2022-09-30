@@ -12,7 +12,8 @@ i
 ```
 then hit enter
 
-^^This will take a while!
+```
+select simulator: Iphone SE 3rd generation.
 
 Then to run
 ```
