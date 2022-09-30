@@ -3,8 +3,14 @@
 To install realm:
 ```
 npm install @realm/react
+npm install expo
 expo run:ios -d
 ```
+When asked for the bundle identifier (this can be anything it is arbitrary)
+```
+i
+```
+then hit enter
 
 ^^This will take a while!
 
