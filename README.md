@@ -14,7 +14,7 @@ then hit enter
 
 ```
 select simulator: Iphone SE 3rd generation.
-
+```
 Then to run
 ```
 npm start
