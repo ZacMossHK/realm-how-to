@@ -172,4 +172,14 @@ realm.write(() => {
 
 })
 ```
+## Finding Realm Files
 
+download Realm Studio
+
+In the terminal:
+```
+open /Users/$USER/Library/Developer/CoreSimulator/Devices
+```
+in finder, search for .realm files
+
+then drag the default.realm file into Realm Studio
