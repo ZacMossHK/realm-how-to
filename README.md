@@ -180,6 +180,6 @@ In the terminal:
 ```
 open /Users/$USER/Library/Developer/CoreSimulator/Devices
 ```
-in finder, search for .realm files
+in finder, search for .realm files within devices
 
 then drag the default.realm file into Realm Studio
