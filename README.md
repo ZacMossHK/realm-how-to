@@ -21,6 +21,13 @@ Then to run
 npm start
 ```
 
+if issues installing Pods, delete /ios/pods, ios/podfile, /node_modules, then:
+
+```
+npm insall
+expo run:ios -d
+```
+
 ## Creating Realm collections
 
 ```javascript
